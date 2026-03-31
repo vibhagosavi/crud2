@@ -1,0 +1,158 @@
+body {
+    font-family: Arial;
+}
+
+/* FORM */
+.form-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fffffc;
+    border-radius: 5px;
+}
+
+.form-container h2{
+ color: purple;
+ margin-top: 0%;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;  
+    width: 30%;
+}
+
+
+.form-group label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #9b319b;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.row .nameinput {
+    padding: 10px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.row .imageinput {
+    padding: 7px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: white;
+}
+
+
+
+.row select {
+    padding: 10px;
+    width:96%;
+    border-radius: 9px;
+}
+
+.btn-group {
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.btn-group button {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 9px;
+}
+
+.newbutton{
+    color: white;
+    background-color: #9b319b;
+}
+.submitbutton{
+    color:#9b319b;
+    background-color: white;
+}
+
+
+
+
+
+/* TABLE */
+.table-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fffffc;
+    border-radius: 5px;
+}
+
+
+.table-container h2{
+ color: purple;
+ margin-top: 0%;
+
+}
+
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse; 
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+.tableth th {
+    padding: 20px;
+    color: white;
+    background: linear-gradient(to right, #d8a4f5, #6a0dad);
+}
+
+img {
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+
+.action-btn {
+    padding: 8px 15px;
+    margin: 3px;
+    border-radius: 9px;
+    border: 2px solid black;
+    background-color: #9b319b;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none !important;
+}
+
+
+.pagination a {
+    margin: 5px;
+    padding: 8px 12px;
+    border: 1px solid black;
+    text-decoration: none !important;
+    color: black !important;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.pagination a:hover {
+    background-color: #9b319b !important;
+    color: white !important;
+}
